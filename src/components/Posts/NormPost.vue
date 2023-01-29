@@ -1,11 +1,6 @@
 <script setup lang="ts">
 import { PropType } from 'vue';
-interface Post{
-    url: string,
-    text: string,
-    type: string,
-    date: string
-}
+import { Post } from '../../helper/interface';
 const props = defineProps({
     postData:{
         type:Object as PropType<Post>,
