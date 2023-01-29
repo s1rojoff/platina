@@ -5,6 +5,7 @@ import SectionTwo from "./SectionTwo.vue";
 import SectionThird from "./SectionThird.vue";
 import SectionFour from "./SectionFour.vue";
 import SectionFive from "./SectionFive.vue";
+import SectionSix from "./SectionSix.vue";
 </script>
 <template>
   <div class="pl-32 pr-32 bg-white">
@@ -24,5 +25,8 @@ import SectionFive from "./SectionFive.vue";
   </div>
   <div class="bg-[rgb(248,248,255)] px-32 pb-10">
     <SectionFive/>
+  </div>
+  <div class="bg-[rgb(248,248,255)] px-32 pb-10">
+    <SectionSix/>
   </div>
 </template>
