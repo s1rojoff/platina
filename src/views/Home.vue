@@ -6,9 +6,10 @@ import SectionThird from "./SectionThird.vue";
 import SectionFour from "./SectionFour.vue";
 import SectionFive from "./SectionFive.vue";
 import SectionSix from "./SectionSix.vue";
+import Footer from '../views/Footer.vue'
 </script>
 <template>
-  <div class="pl-32 pr-32 bg-white">
+  <div class="px-32 bg-white">
     <Header />
   </div>
   <div class="bg-[rgb(248,248,255)] pt-7 px-32">
@@ -28,5 +29,8 @@ import SectionSix from "./SectionSix.vue";
   </div>
   <div class="bg-[rgb(248,248,255)] px-32 pb-10">
     <SectionSix/>
+  </div>
+  <div class="bg-white w-full px-32">
+      <Footer/>
   </div>
 </template>
