@@ -71,7 +71,7 @@ function prevPost():void{
     <div class="flex justify-between items-center">
         <div class="flex items-center justify-start">
             <startSection class="w-4 h-4 text-[#1D3068]"/>
-            <p class="text-lg font-semibold ml-1 text-[#1D3068]">Муҳаррир танлови</p>
+            <p class="text-lg font-semibold ml-1 text-[#1D3068]">Бизнес</p>
         </div>
         <div class="flex ">
           <RecLeft @click="prevPost" class="cursor-pointer"/>
