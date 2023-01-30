@@ -71,10 +71,11 @@ const midPosts = ref<Post[]>([
           <startSection class="text-[#1D3068]" />
           <p class="font-bold text-lg text-[#1D3068] ml-1">Мақолалар</p>
         </div>
-        <div class="flex justify-end cursor-pointer items-center">
+        <router-link to="maqola"
+        ><div class="flex justify-end cursor-pointer items-center">
           <p class="font-bold text-lg text-[#1D3068] mr-2">Барчаси</p>
-          <ArrowRight class="w-5 h-5" />
-        </div>
+          <ArrowRight class="w-5 h-5" /></div
+      ></router-link>
       </div>
       <BaseBr />
       <div v-for="(item, index) in midPosts" :key="index">

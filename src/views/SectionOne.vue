@@ -89,7 +89,7 @@ const smallPosts = ref<Post[]>([
             Сўнгги янгиликлар
           </p>
         </div>
-        <arrowRight class="w-5 h-5 cursor-pointer" />
+        <router-link to="maqola"><arrowRight class="w-5 h-5 cursor-pointer" /></router-link>
       </div>
       <BaseBr />
       <div v-for="(item, index) in smallPosts">

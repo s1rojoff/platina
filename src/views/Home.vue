@@ -9,9 +9,7 @@ import SectionSix from "./SectionSix.vue";
 import Footer from '../views/Footer.vue'
 </script>
 <template>
-  <div class="px-32 bg-white">
-    <Header />
-  </div>
+  
   <div class="bg-[rgb(248,248,255)] pt-7 px-32">
     <SectionOne />
   </div>
@@ -29,8 +27,5 @@ import Footer from '../views/Footer.vue'
   </div>
   <div class="bg-[rgb(248,248,255)] px-32 pb-10">
     <SectionSix/>
-  </div>
-  <div class="bg-white w-full px-32">
-      <Footer/>
   </div>
 </template>

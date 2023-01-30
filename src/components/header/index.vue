@@ -34,13 +34,13 @@ const navbars = ["Ўзбекистон", "Жаҳон", "Жамият", "Таҳл
         <BaseInput class="w-[70%] ml-8" />
       </div>
       <div class="w-[30%] flex justify-end items-center">
-        <BaseBtn><telegram />&nbsp;@platinauzb</BaseBtn>
+        <a href="https://t.me/platinauzb"><BaseBtn class="bg-[#34AADF] text-white"><telegram />&nbsp;@platinauzb</BaseBtn></a>
         <BaseSelect class="ml-8" :lang="languages" />
       </div>
     </div>
     <div class="w-full flex items-center justify-between mt-5">
       <ul class="flex items-center">
-        <li class="ml-8 first:ml-0 font-semibold text-lg" v-for="(item, index) in navbars">{{ item }}</li>
+        <li class="ml-8 first:ml-0 cursor-pointer font-semibold text-lg hover:text-blue-800" v-for="(item, index) in navbars">{{ item }}</li>
       </ul>
       <div class="flex items-center font-semibold">
           <div class="flex items-center mr-10">

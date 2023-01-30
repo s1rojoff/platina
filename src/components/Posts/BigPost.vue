@@ -1,15 +1,16 @@
-<script setup lang="ts">import { PropType } from 'vue';
-import { Post } from '../../helper/interface';
+<script setup lang="ts">
+import { PropType } from "vue";
+import { Post } from "../../helper/interface";
 const props = defineProps({
-    postData:{
-        type:Object as PropType<Post>,
-        default: {}
-    },
-    typeData:{
-      type: String as PropType<string>,
-        default: ''
-    }
-})
+  postData: {
+    type: Object as PropType<Post>,
+    default: {},
+  },
+  typeData: {
+    type: String as PropType<string>,
+    default: "",
+  },
+});
 </script>
 
 <template>
@@ -22,7 +23,17 @@ const props = defineProps({
       {{ postData.subtext }}
     </p>
     <div class="flex items-center justify-start mt-5" :class="typeData">
-      <p class="text-[#FF7D25] text-sm cursor-pointer">{{ postData.type }}</p>
+      <p
+        class="text-sm cursor-pointer"
+        :class="{
+          'text-[#FF7D25]': postData.type == 'Жамият',
+          'text-[#003096]': postData.type == 'Жаҳон',
+          'text-[#2DA85B]': postData.type == 'Ўзбекистон',
+          'text-[#E50029]': postData.type == 'Спорт',
+        }"
+      >
+        {{ postData.type }}
+      </p>
       <p class="font-medium text-sm text-[#A9AABC] ml-5">{{ postData.date }}</p>
     </div>
   </div>

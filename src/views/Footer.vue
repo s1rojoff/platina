@@ -11,13 +11,13 @@ import redmedia from "../components/icons/redmedi.vue";
 <template>
   <div class="py-7">
     <div class="flex items-center justify-start">
-      <img src="/images/logo.png" alt="logo" />
+      <a href="#"><img src="/images/logo.png" alt="logo" /></a>
       <ul class="flex justify-start items-center">
-        <li class="text-[#1D3068] font-medium ml-14 text-[17px]">
+        <li class="text-[#1D3068] font-medium ml-14 text-[17px] cursor-pointer">
           Сайт ҳақида
         </li>
-        <li class="text-[#1D3068] font-medium ml-14 text-[17px]">Реклама</li>
-        <li class="text-[#1D3068] font-medium ml-14 text-[17px]">
+        <li class="text-[#1D3068] font-medium ml-14 text-[17px] cursor-pointer">Реклама</li>
+        <li class="text-[#1D3068] font-medium ml-14 text-[17px] cursor-pointer">
           Маҳфийлик сиёсати
         </li>
       </ul>
@@ -41,12 +41,12 @@ import redmedia from "../components/icons/redmedi.vue";
     <BaseBr class="mt-5"/>
     <div class="flex justify-between items-center">
       <div class="flex items-center justify-start">
-        <telegramfoter />
-        <instagram />
-        <facebook />
-        <youtube />
-        <twitter />
-        <tiktok />
+        <a href="#"><telegramfoter /></a>
+        <a href="#"><instagram /></a>
+        <a href="#"><facebook /></a>
+        <a href="#"><youtube /></a>
+        <a href="#"><twitter /></a>
+        <a href="#"><tiktok /></a>
       </div>
       <div class="flex items-center justify-start">
         <redmedia />

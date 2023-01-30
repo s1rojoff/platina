@@ -24,24 +24,6 @@ const forNormPosts = ref<Post[]>([
     type: "Ўзбекистон",
     date: "2 кун олдин",
   },
-  {
-    url: "/images/fourSec4.png",
-    text: "Оиладаги зўравонлик, аёллар ўлими, етим қолган болалар…",
-    type: "Ўзбекистон",
-    date: "2 кун олдин",
-  },
-  {
-    url: "/images/fourSec5.png",
-    text: "Оиладаги зўравонлик, аёллар ўлими, етим қолган болалар…",
-    type: "Ўзбекистон",
-    date: "2 кун олдин",
-  },
-  {
-    url: "/images/fourSec6.png",
-    text: "Оиладаги зўравонлик, аёллар ўлими, етим қолган болалар…",
-    type: "Ўзбекистон",
-    date: "2 кун олдин",
-  },
 ]);
 </script>
 <template>
@@ -51,16 +33,14 @@ const forNormPosts = ref<Post[]>([
         <startSection class="text-[#1D3068]" />
         <p class="font-bold text-lg text-[#1D3068] ml-1">Мақолалар</p>
       </div>
-
-      <router-link to="maqola"
-        ><div class="flex justify-end cursor-pointer items-center">
-          <p class="font-bold text-lg text-[#1D3068] mr-2">Барчаси</p>
-          <ArrowRight class="w-5 h-5" /></div
-      ></router-link>
+      <div class="flex justify-end cursor-pointer items-center">
+        <p class="font-bold text-lg text-[#1D3068] mr-2">Барчаси</p>
+        <ArrowRight class="w-5 h-5" />
+      </div>
     </div>
     <BaseBr />
     <div class="grid grid-cols-3 gap-4">
-      <NormPost v-for="(item, index) in forNormPosts" :post-data="item" />
+        <NormPost v-for="(item, index) in forNormPosts" :post-data="item"/>
     </div>
   </div>
 </template>
