@@ -7,7 +7,7 @@ import { Post } from "../helper/interface";
 import startSection from "../components/icons/startSection.vue";
 import ArrowRight from "../components/icons/arrowRight.vue";
 const thirdBigPost = ref<Post>({
-  url: "src/assets/images/modric.png",
+  url: "/images/modric.png",
   text: "Модрич Саудия клубининг таклифини рад қилди",
   type: "Спорт",
   date: "2 кун олдин",
@@ -15,31 +15,31 @@ const thirdBigPost = ref<Post>({
 
 const spallPosts = ref<Post[]>([
   {
-    url: "src/assets/images/small4.png",
+    url: "/images/small4.png",
     text: "Саудия клуби Месси исми туширилган либосларни сотувга чиқарди",
     type: "Спорт",
     date: "2 кун олдин",
   },
   {
-    url: "src/assets/images/suarez.png",
+    url: "/images/suarez.png",
     text: "Луис Суарес «Гремио» билан шартнома имзолади",
     type: "Спорт",
     date: "2 кун олдин",
   },
   {
-    url: "src/assets/images/ronaldo.png",
+    url: "/images/ronaldo.png",
     text: "Криштиану Роналду «Ан Наср» билан икки йиллик шартнома имзолади",
     type: "Спорт",
     date: "2 кун олдин",
   },
   {
-    url: "src/assets/images/ramos.png",
+    url: "/images/ramos.png",
     text: "Роналду ва Рамос битта жамоада фаолиятини давом эттириши мумкин",
     type: "Спорт",
     date: "2 кун олдин",
   },
   {
-    url: "src/assets/images/eldor.png",
+    url: "/images/eldor.png",
     text: "Элдор Шомуродов «Торино»га ўтиши мумкин",
     type: "Спорт",
     date: "2 кун олдин",

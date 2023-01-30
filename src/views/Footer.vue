@@ -11,7 +11,7 @@ import redmedia from "../components/icons/redmedi.vue";
 <template>
   <div class="py-7">
     <div class="flex items-center justify-start">
-      <img src="../assets/images/logo.png" alt="logo" />
+      <img src="/images/logo.png" alt="logo" />
       <ul class="flex justify-start items-center">
         <li class="text-[#1D3068] font-medium ml-14 text-[17px]">
           Сайт ҳақида

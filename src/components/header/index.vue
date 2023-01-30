@@ -27,10 +27,10 @@ const navbars = ["Ўзбекистон", "Жаҳон", "Жамият", "Таҳл
 </script>
 <template>
   <div class="bg-white pb-4">
-    <img src="../../assets/images/ads.png" class="h-40 w-full" alt="" />
+    <img src="/images/ads.png" class="h-40 w-full" alt="" />
     <div id="navbar" class="flex items-center justify-between w-full pt-7">
       <div class="w-[70%] flex justify-start">
-        <img src="../../assets/images/logo.png" class="" alt="logo" />
+        <img src="/images/logo.png" class="" alt="logo" />
         <BaseInput class="w-[70%] ml-8" />
       </div>
       <div class="w-[30%] flex justify-end items-center">
@@ -48,7 +48,7 @@ const navbars = ["Ўзбекистон", "Жаҳон", "Жамият", "Таҳл
             <p class="ml-1 text-lg">+9 °C</p>
           </div>
           <div class="flex items-center ml-10">
-            <img src="../../assets/images/USD.png"  class="w-5 h-5 rounded-full" alt="">
+            <img src="/images/USD.png"  class="w-5 h-5 rounded-full" alt="">
             <p class="ml-2 text-lg mr-1">USD <span class="text-red-500">11318.74</span></p>
             <down/>
           </div>

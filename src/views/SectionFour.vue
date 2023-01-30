@@ -7,37 +7,37 @@ import BaseBr from "../components/BaseBr.vue";
 import { ref } from "vue";
 const forNormPosts = ref<Post[]>([
   {
-    url: "src/assets/images/fourSec1.png",
+    url: "/images/fourSec1.png",
     text: "Оиладаги зўравонлик, аёллар ўлими, етим қолган болалар…",
     type: "Ўзбекистон",
     date: "2 кун олдин",
   },
   {
-    url: "src/assets/images/fourSec2.png",
+    url: "/images/fourSec2.png",
     text: "Оиладаги зўравонлик, аёллар ўлими, етим қолган болалар…",
     type: "Ўзбекистон",
     date: "2 кун олдин",
   },
   {
-    url: "src/assets/images/fourSec3.png",
+    url: "/images/fourSec3.png",
     text: "Оиладаги зўравонлик, аёллар ўлими, етим қолган болалар…",
     type: "Ўзбекистон",
     date: "2 кун олдин",
   },
   {
-    url: "src/assets/images/fourSec4.png",
+    url: "/images/fourSec4.png",
     text: "Оиладаги зўравонлик, аёллар ўлими, етим қолган болалар…",
     type: "Ўзбекистон",
     date: "2 кун олдин",
   },
   {
-    url: "src/assets/images/fourSec5.png",
+    url: "/images/fourSec5.png",
     text: "Оиладаги зўравонлик, аёллар ўлими, етим қолган болалар…",
     type: "Ўзбекистон",
     date: "2 кун олдин",
   },
   {
-    url: "src/assets/images/fourSec6.png",
+    url: "/images/fourSec6.png",
     text: "Оиладаги зўравонлик, аёллар ўлими, етим қолган болалар…",
     type: "Ўзбекистон",
     date: "2 кун олдин",

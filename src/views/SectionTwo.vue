@@ -9,43 +9,43 @@ import { Post } from "../helper/interface";
 const currentSlide = ref<number>(0)
 const twoNormPosts = ref<Post[]>([
   {
-    url: "src/assets/images/twoSmall.png",
+    url: "/images/twoSmall.png",
     text: "Вакант лавозимларга энг кўп очиқ танлов ўтказган ташкилотлар маълум қилинди",
     type: "Ўзбекистон",
     date: "2 кун олдин",
   },
   {
-    url: "src/assets/images/twoSmall1.png",
+    url: "/images/twoSmall1.png",
     text: "“Тизимда жуда катта коррупцион схема авж олиб кетган” — Зарифбой Ибодуллаев",
     type: "Ўзбекистон",
     date: "2 кун олдин",
   },
   {
-    url: "src/assets/images/twoSmall2.png",
+    url: "/images/twoSmall2.png",
     text: "“Тизимда жуда катта коррупцион схема авж олиб кетган” — Зарифбой Ибодуллаев",
     type: "Ўзбекистон",
     date: "2 кун олдин",
   },
   {
-    url: "src/assets/images/twoSmall4.png",
+    url: "/images/twoSmall4.png",
     text: "Оиладаги зўравонлик, аёллар ўлими, етим қолган болалар",
     type: "Ўзбекистон",
     date: "2 кун олдин",
   },
   {
-    url: "src/assets/images/twoSmall3.png",
+    url: "/images/twoSmall3.png",
     text: "“Амбронол” сиропи ҳам сотувдан олинмоқда",
     type: "Ўзбекистон",
     date: "2 кун олдин",
   },
   {
-    url: "src/assets/images/twoSmall4.png",
+    url: "/images/twoSmall4.png",
     text: "Оиладаги зўравонлик, аёллар ўлими, етим қолган болалар",
     type: "Ўзбекистон",
     date: "2 кун олдин",
   },
   {
-    url: "src/assets/images/twoSmall5.png",
+    url: "/images/twoSmall5.png",
     text: "Бош прокуратура ЙПХ масъуллари ахбороти асосида тайёрланган кўрсатувга эътироз билдирди",
     type: "Ўзбекистон",
     date: "2 кун олдин",

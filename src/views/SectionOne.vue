@@ -8,7 +8,7 @@ import SmallPost from "../components/Posts/SmallPost.vue";
 import BaseBr from "../components/BaseBr.vue";
 import { Post } from "../helper/interface";
 const headBigPost = ref<Post>({
-  url: "src/assets/images/astana.png",
+  url: "/images/astana.png",
   text: "Тошкентдан Олмаотага учган самолёт бўйича қўшимча маълумот берилди",
   subtext:
     "2023 йил 2 январь куни Тошкент – Олмаота йўналиши бўйича КC128 рейсини амалга ошириш чоғида «Air Astana» авиакомпаниясининг самолёти Чимкент парвозларни бошқариш маркази ҳудудида 350 (10600 м) баландликда кучли турбулентликка учради. Самолёт...",
@@ -17,13 +17,13 @@ const headBigPost = ref<Post>({
 });
 const oneNormPost = ref<Post[]>([
   {
-    url: "src/assets/images/normal1.png",
+    url: "/images/normal1.png",
     text: "Францияда 700 га яқин машина ёқиб юборилди",
     type: "Жаҳон",
     date: "2 кун олдин",
   },
   {
-    url: "src/assets/images/normal2.png",
+    url: "/images/normal2.png",
     text: "Ўзбекистонда 3 январь куни кузатиладиган об-ҳаво маълумоти эълон қилинди ҳаво маълумоти эълон қилинди",
     type: "Жамият",
     date: "2 кун олдин",
@@ -31,37 +31,37 @@ const oneNormPost = ref<Post[]>([
 ]);
 const smallPosts = ref<Post[]>([
   {
-    url: "src/assets/images/small1.png",
+    url: "/images/small1.png",
     text: "Туркияда кўплаб авиарейслар туман сабаб бекор қилинди",
     type: "Жаҳон",
     date: "2 кун олдин",
   },
   {
-    url: "src/assets/images/small1.png",
+    url: "/images/small1.png",
     text: "Тошкентдаги 31 та олигоҳда дарс вақти ўзгаради",
     type: "Жамият",
     date: "2 кун олдин",
   },
   {
-    url: "src/assets/images/small1.png",
+    url: "/images/small1.png",
     text: "Қайси ҳудудда аёл раҳбарлар бошқарувидаги корхоналар сони кўп?",
     type: "Жамият",
     date: "2 кун олдин",
   },
   {
-    url: "src/assets/images/small1.png",
+    url: "/images/small1.png",
     text: "Андижонда сотувчи мижозининг пластик картасидан пул ўғирлади",
     type: "Жамият",
     date: "2 кун олдин",
   },
   {
-    url: "src/assets/images/small1.png",
+    url: "/images/small1.png",
     text: "Саудия клуби Месси исми туширилган либосларни сотувга чиқарди",
     type: "Спорт",
     date: "2 кун олдин",
   },
   {
-    url: "src/assets/images/small1.png",
+    url: "/images/small1.png",
     text: "Air Astana авиакомпаниясининг Тошкент-Олмаота рейси йўловчилари жабрланди",
     type: "Жамият",
     date: "2 кун олдин",

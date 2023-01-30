@@ -8,55 +8,55 @@ import BaseBtn from '../components/BaseBtn/index.vue'
 import { ref } from "vue";
 const midPosts = ref<Post[]>([
     {
-        url: 'src/assets/images/secFive1.png',
+        url: '/images/secFive1.png',
         text: 'Ўзбекистонда бошланғич синф дарсликлари вазни 300 граммдан оширилмаслиги белгилаб қўйилди',
         type: 'Жамият',
         date: '2 кун олдин'
     },
     {
-        url: 'src/assets/images/secFive1.png',
+        url: '/images/secFive1.png',
         text: 'Ўзбекистонда бошланғич синф дарсликлари вазни 300 граммдан оширилмаслиги белгилаб қўйилди',
         type: 'Жамият',
         date: '2 кун олдин'
     },
     {
-        url: 'src/assets/images/secFive1.png',
+        url: '/images/secFive1.png',
         text: 'Ўзбекистонда бошланғич синф дарсликлари вазни 300 граммдан оширилмаслиги белгилаб қўйилди',
         type: 'Жамият',
         date: '2 кун олдин'
     },
     {
-        url: 'src/assets/images/secFive1.png',
+        url: '/images/secFive1.png',
         text: 'Ўзбекистонда бошланғич синф дарсликлари вазни 300 граммдан оширилмаслиги белгилаб қўйилди',
         type: 'Жамият',
         date: '2 кун олдин'
     },
     {
-        url: 'src/assets/images/secFive1.png',
+        url: '/images/secFive1.png',
         text: 'Ўзбекистонда бошланғич синф дарсликлари вазни 300 граммдан оширилмаслиги белгилаб қўйилди',
         type: 'Жамият',
         date: '2 кун олдин'
     },
     {
-        url: 'src/assets/images/secFive1.png',
+        url: '/images/secFive1.png',
         text: 'Ўзбекистонда бошланғич синф дарсликлари вазни 300 граммдан оширилмаслиги белгилаб қўйилди',
         type: 'Жамият',
         date: '2 кун олдин'
     },
     {
-        url: 'src/assets/images/secFive1.png',
+        url: '/images/secFive1.png',
         text: 'Ўзбекистонда бошланғич синф дарсликлари вазни 300 граммдан оширилмаслиги белгилаб қўйилди',
         type: 'Жамият',
         date: '2 кун олдин'
     },
     {
-        url: 'src/assets/images/secFive1.png',
+        url: '/images/secFive1.png',
         text: 'Ўзбекистонда бошланғич синф дарсликлари вазни 300 граммдан оширилмаслиги белгилаб қўйилди',
         type: 'Жамият',
         date: '2 кун олдин'
     },
     {
-        url: 'src/assets/images/secFive1.png',
+        url: '/images/secFive1.png',
         text: 'Ўзбекистонда бошланғич синф дарсликлари вазни 300 граммдан оширилмаслиги белгилаб қўйилди',
         type: 'Жамият',
         date: '2 кун олдин'
