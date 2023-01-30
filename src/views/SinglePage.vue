@@ -14,7 +14,7 @@ import arrowLeft from "../components/icons/arrowLeft.vue";
       <p class="text-3xl font-bold text-[#1D3068]">
         Кечадан ўқиш бошланган мактабларда иссиқлик талабга жавоб берадими?
       </p>
-      <p class="text-[17px] font-normal text-[#1D3068]">
+      <p class="text-[17px] font-normal mt-3 text-[#1D3068]">
         Маҳаллий ҳокимликлар чиқарган қарорга кўра, кеча, яъни 11 январдан
         кўпгина мактабларда ўқиш жараёни бошланди. Ташқаридаги ҳаво ҳарорати эса
         сўнгги йиллардаги айни шу мавсум кўрсаткичидан анча юқори.
@@ -35,13 +35,13 @@ import arrowLeft from "../components/icons/arrowLeft.vue";
           </div>
         </div>
       </div>
-      <div>
+      <div class="mt-3">
         <img src="/images/school.png" alt="" />
       </div>
       <p class="text-start text-base font-medium text-[#A9AABC] mt-1">
         Фото: Platina.uz
       </p>
-      <p class="text-[17px] text-[#1D3068]">
+      <p class="text-[17px] text-[#1D3068] mt-5">
         Маҳаллий ҳокимликлар чиқарган қарорга кўра, кеча, яъни 11 январдан
         кўпгина мактабларда ўқиш жараёни бошланди. Ташқаридаги ҳаво ҳарорати эса
         сўнгги йиллардаги айни шу мавсум кўрсаткичидан анча юқори. Яъни
@@ -72,7 +72,7 @@ import arrowLeft from "../components/icons/arrowLeft.vue";
         • Хўш, кечадан дарс ўтилаётган мактаблардаги иссиқлик шу талабларга
         жавоб берадими?
       </p>
-      <div class="flex justify-between items-center">
+      <div class="flex justify-between items-center mt-3">
         <div class="pt-2 flex justify-start items-center">
           <p
             class="text-sm text-[#1D3068] rounded-md py-1 px-2 bg-[#F8F8FF] font-medium"
